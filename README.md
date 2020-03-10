@@ -1,2 +1,4 @@
-# Java_prac
-다시 공부하는 Java
+# Java_practice
+
+
+* 다시 공부하는 Java
