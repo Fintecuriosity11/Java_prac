@@ -109,4 +109,45 @@ catch(FileNotFoundException ex) {        // 시도했던 것이 잘 안 됐을�
 <h1> 자바 코드의 구조 </h1>
 <br>
 <br>
-<image src=! "https://user-images.githubusercontent.com/56021593/76533464-730b3e00-64bb-11ea-8436-f6b1f9dbe648.JPG" > 
+<img src = "https://user-images.githubusercontent.com/56021593/76533464-730b3e00-64bb-11ea-8436-f6b1f9dbe648.JPG">
+
+```java
+public class dog{
+
+
+}                  // 클래스(Class)
+```
+<br>
+<br>
+1. 소스 코드 파일(.java라는 확장자가 분은 파일)에서는 <code>class</code> 각각 한 개씩을 정의. 클래스는 보통 프로그램의 한 부분이라고 할
+수 있지만 아주 작은 애플리케이션 중에는 클래스 단 하나만으로 이뤄진 것도 있다. 클래스는 한 쌍의 중괄호({})안에 들어가야 한다.
+
+<br>
+<br>
+
+```java
+public class dog{
+    void bark() {
+   }               //메소드(method)
+}                  // 클래스(Class)
+
+```
+
+<br>
+<br>
+2. 클래스에는 method가 한 개 이상 들어간다. 예를 들어, (개를 나타내는) Dog 클래스에 (짖는 것을 의미하는) bark라는 메소드가 들어갈 수 있으며, 이 메소드에는 개가 짖는 방법을 지시하는 내용이 들어가면 된다. 메소드는 클래스 안에서 (즉, 클래스 전체를 감싸는 중괄호 안에서 선언해야 한다)
+
+<br>
+<br>
+```java
+public class dog{
+    void bark() {
+     statement1;
+     statement2;
+   }               
+}                  // 선언문
+```
+<br>
+<br>
+
+ 3. 메소드를 감싸는 중괄호 안에는 메소드에서 처리할 일을 지시하는 내용이 들어간다. 메소드 코드는 기본적으로 일련의 선언문을 모아놓은 것이므로 지금은 메소드를 일종의 함수나 프로시저와 비슷한 것으로 생각해도 무방.
