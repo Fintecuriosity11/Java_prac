@@ -139,6 +139,7 @@ public class dog{
 
 <br>
 <br>
+
 ```java
 public class dog{
     void bark() {
@@ -147,6 +148,7 @@ public class dog{
    }               
 }                  // 선언문
 ```
+
 <br>
 <br>
 
