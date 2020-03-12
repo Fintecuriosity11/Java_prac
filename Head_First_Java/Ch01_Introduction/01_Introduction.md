@@ -105,3 +105,8 @@ catch(FileNotFoundException ex) {        // 시도했던 것이 잘 안 됐을�
   
 
 ```
+
+<h1> 자바 코드의 구조 </h1>
+<br>
+<br>
+<image src=! "https://user-images.githubusercontent.com/56021593/76533464-730b3e00-64bb-11ea-8436-f6b1f9dbe648.JPG" > 
